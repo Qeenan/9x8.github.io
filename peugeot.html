@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peugeot 9x8</title>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <style>
+         body {
+            margin: 0;
+            overflow: hidden;
+            align-items: right;
+            background-color: black;
+        }
+
+        .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px; /* Adjust the gap as needed */
+        }
+
+        .left-item {
+        padding: 20px;
+        background-color: yellowgreen;
+        }
+  
+        .right-item {
+        background-color: grey;
+        }
+
+        p, h1, h3, ol, li {
+        font-family:'Fira Code', 'JetBrains Mono', monospace;
+        text-align: justify;
+        }   
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-item">
+            <h1>Peugeot 9x8</h1>
+            <p>Peugeot 9X8 adalah mobil balap hibrida listrik yang dirancang untuk berkompetisi di kelas Le Mans Hypercar (LMH). Mobil ini dikembangkan oleh Peugeot Sport, divisi balap Peugeot. </p>
+            <h3>Fitur</h3>
+            <ul>
+                <li>Berpenggerak 4 roda</li>
+                <li>Menggunakan mesin bensin 2.600 cc V6 twin turbo dan motor listrik</li>
+                <li>Memiliki transmisi kopling ganda 7 percepatan</li>
+                <li>Memiliki baterai 900V</li>
+                <li>Memiliki tangki bahan bakar 90 liter</li>
+                <li>Memiliki bodi dengan fitur aerodinamika yang unik</li>
+                <li>Tidak memiliki sayap belakang</li>
+            </ul>
+            <h3>Debut Peugeot 9X8</h3>
+            <ul>
+                <li>Mobil ini memulai debutnya di ajang 6 Hours of Monza 2022</li>
+                <li>Mobil ini dirancang untuk memanfaatkan sepenuhnya kebebasan yang diizinkan oleh peraturan baru untuk kategori Hypercar</li>
+            </ul>
+            <h3>Desain Peugeot 9X8 </h3>
+            <ul>
+                <li>Desainnya tidak pernah terlihat sebelumnya di kendaraan sejenis</li>
+                <li>Lampu bagian depan dan bagian belakang Peugeot 9X8 merupakan lampu garis LED yang membentuk seperti tiga buah cakar</li>
+                <li>Menggunakan warna abu-abu 'Selenium Grey' dipadukan warna hijau terang 'Kryptonite Acid Green/Yellow'</li>
+            </ul>
+             
+
+        </div>
+        
+        <div class="right-item"> 
+        <model-viewer alt="Peugeot" src="peugeot.glb" style="width: 100%; height: 100vh" camera-controls></model-viewer>
+        </div>
+        
+      </div>
+
+
+</body>
+</html>
